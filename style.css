@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+*{
+    margin:0;
+    padding:0;
+
+}
+.wrapper{
+    
+    height:100vh;
+    width:60%;
+    border:1px solid black;
+    margin-left:400px;
+    background-color: rgba(23, 20, 20, 0.877);
+}
+.navbar{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.link a{
+    margin-left: 30px;
+    font-size: larger;
+    color: aliceblue;
+    text-decoration: none;
+}
+.head{
+    margin-left: 250px;
+    font-size: xx-large;
+    color: aliceblue;
+}
+.img{
+    margin-left: 300px;
+    font-size: x-large;
+    color: aliceblue;
+    
+}
+.img input{
+    border-radius: 30px;
+    border:none;
+   text-align: center;
+   background-color: gray;
+   text-decoration: white;
+   height:30px
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main1{
+    color: white;
+    background-color:#5c524c;
+    border-radius: 30PX;
+    height:350px;
+    width:450px;
+    padding:30px;
+    margin-left:20px;
+}
+.p1{
+    font-family: 'Alex Brush';
+    font-size: xx-large;
+    justify-content: flex-start;
+    padding-left:20px;
+}
+.p2{
+    padding-left:20px; 
+}
+.head4{
+ font-size: 50px;
+ padding:25px;
+ font-family:'Anton';
+ letter-spacing: 2px;
+}
+.Adventurebg{
+    height:400px;
+    width:450px;
+    margin-left: 150px;
+    border-radius: 30px;
+}
+.icons{
+    display:flex;
+    flex-wrap: wrap;
+    background-color:#3b3b3b;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    padding:10px;
+    margin:10px;
+}
+.icons img{
+   
+    height:100px;
+    width:100px;
+} 
+.icons, .c{
+    color: white;
+}
+.h3{
+    background:none;
+    color:aliceblue;
+    margin:20px;
+    font-family:'Anton';
+    font-size: 50px;
+   
+}
+.p3{
+    background:none;
+    color:aliceblue;
+    font-size: 20px; 
+    margin:20px;
+  
+}
+.final{
+    display:flex;
+    flex-wrap: wrap;
+    padding-left:20px;
+}
+.shoes{
+    margin-top: 20px;
+    height: 400px;
+    width:600px;
+    border-radius: 30px;
+    margin-left: 150px;
+}
+.exploremore{
+    padding: 12px 20px;
+    border-radius: 20px;
+    background-color: #EAC696;
+    border: none;
+    text-align: center;
+    font-weight: 550;
+    margin-top: 10px;
+    margin-left: 15px;
+}
